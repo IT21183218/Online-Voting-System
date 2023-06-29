@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: black;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+    width: 110px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+    left: -40px;
+    bottom: -15px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.navigation ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffd900;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navigation ul li a:hover::after{
+    width: 100%;
+}
+.user{
+    position: relative;
+    left: 90px;
+    bottom: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.log ul li a{
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    bottom: 25px;
+    color: rgb(174, 238, 251);
+    text-transform: uppercase;
+    margin: 0 -10px;
+    font-family: 'Heebo', sans-serif;
+}
+.log ul li+li::before{
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    content: "|\00a0";
+    position: relative;
+    bottom: 25px;
+}
+.search-box{
+    position: absolute;
+    top: 80px;
+    left: 1090px;
+    transform: translate(-50%,-50%);
+    height: 22px;
+    border-radius: 22px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.search-btn img{
+    float: right;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgb(251, 252, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 25px;
+    width: 0px;
+}
+.search-box:hover > .search-txt{
+    width: 200px;
+    padding: 0 6px;
+}
+select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: #5c6664;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color:#fff;
+    cursor:pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+ }
+ select::-ms-expand {
+    display: none;
+ }
+ .select {
+    position: absolute;
+    left: 216px;
+    top: 25px;
+    display: flex;
+    width: 15em;
+    height: 2em;
+    line-height: 2;
+    background: #5c6664;
+    overflow: hidden;
+    border-radius: .25em;
+ }
+ .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #2b2e2e;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+ .select:hover::after {
+    color: #23b499;
+ }
+ .footer{
+    background-color: black;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+   
+}
+.official img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 15px;
+}
+.follow ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+}
+.follow{
+    position: relative;
+    left: 130px;
+    bottom: 90px;
+}
+.foll{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+}
+.copyright{
+    position: relative;
+    left: 5px;
+    bottom: 65px;
+    color: #fff;
+    font-size: 14px;
+}
+.terms{
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+}
+.terms ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+}
+.terms ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.terms ul li+li::before{
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.284);
+    content: "|\00a0";
+}
+.playstore{
+    position: relative;
+    left: 530px;
+    bottom: 150px;
+}
+.playstore ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+.playstore img{
+    width: 140px;
+    height: 35px;
+    border-radius: 10px;   
+}
+.qr{
+    position: relative;
+    left: 1405px;
+    bottom: 258px;
+}
+.qr img{
+    width: 110px;
+    height: 110px;
+}

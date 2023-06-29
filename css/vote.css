@@ -1,0 +1,88 @@
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+.leftcolumn2 {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #f1f1f1;
+  
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  align-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+  
+  
+}
+div.vote {
+  margin: 5px;
+  float: left;
+  padding: 20px;
+  width: 25%;
+  align-content: center;
+  text-align: center;
+}
+
+div.vote:hover {
+    background-color: #e6e6e6;
+    border-radius: 10px;
+}
+
+div.vote img {
+  width: 50%;
+  height: auto;
+   border-radius: 50%;
+  
+}
+
+div.desc {
+  
+  text-align: center;
+}
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
